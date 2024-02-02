@@ -26,21 +26,13 @@ header {
 
 @media screen and (max-width: 750px) {
     header {
-        height: 100px;
-    }
-   
-
-    
-}
-
-@media screen and (max-width: 100px) {
-    header {
         height: 50px;
     }
    
 
     
 }
+
 
 
 
