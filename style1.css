@@ -8,11 +8,17 @@ body {
 
 header {
     background-color: black;
-    padding: 30px;
+    padding: 20px;
     height: 600px;
     background-image: url(kuvat/logo.png);
     background-size: 100%;
     background-position: center;
+    
+}
+
+ul .some {
+    position: absolute;
+    margin-bottom: 50px;
     
 }
 
@@ -21,7 +27,7 @@ header {
     header {
         height: 300px;
     }
-   
+    
 
     
 }
@@ -29,8 +35,10 @@ header {
 @media screen and (max-width: 750px) {
     header {
         height: 100px;
+       
     }
-
+   
+   
    
     
     
@@ -69,8 +77,9 @@ footer {
 }
 
 ul {
-    margin: 0;
-    padding: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 20px;
     
 }
 
