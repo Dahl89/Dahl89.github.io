@@ -8,11 +8,12 @@ body {
 
 header {
     background-color: black;
-    padding: 20px;
+    padding: 30px;
     height: 600px;
     background-image: url(kuvat/logo.png);
     background-size: 100%;
     background-position: center;
+    
 }
 
 
@@ -27,14 +28,18 @@ header {
 
 @media screen and (max-width: 750px) {
     header {
-        height: 40px;
+        height: 100px;
     }
+
+   
     
     
 }
 
+header .mobile {
+    display: none;
 
-
+}
 
 
 .features {
@@ -43,15 +48,10 @@ header {
     padding: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
-@media screen and (max-width: 1500px) {
-    .features {
-        display: block;
-    }
-   
-}
 
 .features figure {
     margin: auto;
@@ -78,5 +78,4 @@ ul {
     padding: 20px;
     
 }
-
 
