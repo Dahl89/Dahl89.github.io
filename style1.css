@@ -14,6 +14,7 @@ header {
     background-size: 100%;
     background-position: center;
     
+    
 }
 
 ul .some {
@@ -23,29 +24,8 @@ ul .some {
 }
 
 
-@media screen and (max-width: 1500px) {
-    header {
-        height: 300px;
-    }
-    
-
-    
-}
-
-@media screen and (max-width: 750px) {
-    header {
-        height: 100px;
-       
-    }
-   
-   
-   
-    
-    
-}
-
-
 .features {
+    height: 240px;
     background-color: white;
     color: black;
     padding: 10px;
@@ -58,13 +38,13 @@ ul .some {
 
 .features figure {
     margin: auto;
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
 
 .features figure img {
-    box-shadow: grey 3px 3px 3px;
-    width: 300px;
+    box-shadow: rgb(56, 56, 56) 3px 3px 3px;
+    width: 180px;
     border-radius: 10%;
 }
 
@@ -83,3 +63,65 @@ ul {
     
 }
 
+.vuokravarusteet {
+    height: 600px;
+    background-image: url(kuvat/vuokravarusteet1.jpg);
+    background-size: 100%;
+    background-color: black;
+    
+    
+    
+    
+
+}
+
+.joukkue {
+    height: 600px;
+    background-image: url(kuvat/joukkue.jpg);
+    background-size: 100%;
+    background-color: black;
+    
+}
+
+h1 {
+    color: black;
+    position: relative;
+}
+
+/*Media*/
+
+@media screen and (max-width: 1500px) {
+    header {
+        height: 300px;
+    }
+    
+   
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .features {
+        height: 420px;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 750px) {
+    header {
+        height: 100px;
+       
+    }
+    .features {
+        height: 900px;
+    }
+
+    .features figure img {
+        width: 200px;
+    }
+   
+}
+
+
+/* galleria tekste o bilda  */
