@@ -66,17 +66,19 @@ ul {
 .vuokravarusteet {
     height: 600px;
     background-image: url(kuvat/vuokravarusteet1.jpg);
-    background-size: 100%;
+    max-width: 100%;
     background-color: black;
     
     
-    
-    
+}
 
+.galleria img{
+    max-width: 100%;
+    
 }
 
 .joukkue {
-    height: 600px;
+    height: 500px;
     background-image: url(kuvat/joukkue.jpg);
     background-size: 100%;
     background-color: black;
