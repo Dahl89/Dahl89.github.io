@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -54,14 +54,13 @@ footer {
 .joukkue {
     display: flex;
     justify-content: center;
-    border-radius: 50px;
+    
     
     
 }
 
 .joukkue img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
     border-radius: 5px;
     
     
@@ -78,7 +77,7 @@ footer {
 
 
 .container {
-    max-width: 1224px;
+    max-width: 1724px;
     width: 90%;
     margin: auto;
     padding: 40px o;
@@ -119,7 +118,8 @@ footer {
 }
 
 .wrapper img {
-    max-width: 800px;
+    
+    width: 50%;
     float: left;
     border-radius: 25px;
     
@@ -144,19 +144,6 @@ footer {
     font-size: 24px;
 }
 
-.yhteystiedot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    width: 70%;
-}
-
-.yhteystiedot img {
-    max-width: 800px;
-    float: left;
-    border-radius: 10px;
-}
 /*Media*/
 
 @media screen and (max-width: 1500px) {
