@@ -63,19 +63,6 @@ ul {
     
 }
 
-.vuokravarusteet {
-    height: 600px;
-    background-image: url(kuvat/vuokravarusteet1.jpg);
-    max-width: 100%;
-    background-color: black;
-    
-    
-}
-
-.galleria img{
-    max-width: 100%;
-    
-}
 
 .joukkue {
     height: 500px;
@@ -90,6 +77,82 @@ h1 {
     position: relative;
 }
 
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px o;
+   
+    
+   
+}
+.title {
+    margin-bottom: 2rem;
+
+
+}
+.galleria {
+    display: flex;
+    gap: 10px;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+.sectionbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper img {
+    max-width: 800px;
+    float: left;
+
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box {
+    color: black;
+}
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box p {
+    font-size: 24px;
+}
+
+.yhteystiedot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+}
+
+.yhteystiedot img {
+    max-width: 800px;
+    float: left;
+}
 /*Media*/
 
 @media screen and (max-width: 1500px) {
