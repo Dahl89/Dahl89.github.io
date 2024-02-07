@@ -165,11 +165,16 @@ footer {
        
     }
     .features {
-        height: 900px;
+        height: 100px;
     }
 
     .features figure img {
-        width: 200px;
+        width: 80px;
+    }
+
+    .features figure {
+        width: 100px;
+        
     }
    
 }
